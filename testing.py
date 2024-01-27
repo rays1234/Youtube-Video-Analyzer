@@ -4,7 +4,7 @@ import openai
 from pytube import extract
 from youtube_transcript_api import YouTubeTranscriptApi 
 
-openai.api_key="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"
+openai.api_key=""
 
 def get_transcript(video_url):
     video_id = extract.video_id(video_url)
